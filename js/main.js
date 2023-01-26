@@ -20,7 +20,7 @@ buttonCalcoloEl.addEventListener("click", function () {
 
     document.getElementById('carrozza').innerHTML = carrozza;
     document.getElementById('codice_cp').innerHTML = codiceCp;
-    document.getElementById('nome_cognome').innerHTML = nomeCognome;
+    document.getElementById('nome_cognome').innerHTML = nomeCognome.value;
 
 
     // MINORENNE
