@@ -12,11 +12,11 @@
     <script type="text/javascript" src="js/main.js" defer></script>
 </head>
 <body>
-    <main class="bg-success text-light">
+    <main class="bg-success text-light min-vh-100">
         <div class="container">
 
-            <h1 class="my-5 text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-            <form action="" class="bg-light text-dark">
+            <h1 class="py-5 text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <form action="" class="bg-light text-dark p-4">
                 <div class="row justify-content-around text-center mb-4">
                     <div class="col-3">
                         
@@ -47,42 +47,43 @@
 
         <div class="container my-5">
 
-            <h1 class="my-5 text-center">IL TUO BIGLIETTO</h1>
+            <h1 class="py-5 text-center">IL TUO BIGLIETTO</h1>
             
             <div class="bg-light text-dark p-5">
                 <div class="row">
                     <div class="col-4">
-                        <h5>Dettaglio passeggero</h5>
+                        <h5 class="fw-bold">Dettaglio passeggero</h5>
                     </div>
                 </div>
                 <div class="row">
                     
                     <div class="col-4 bg-secondary fw-bold">
-                        <h5>NOME PASSEGGERO</h3>
-                        <p>Jon Snow</p>
+                        <h5>NOME PASSEGGERO</h5>
+                        <p id="nome_cognome"></p>
                     </div>
                     <div class="col-3">
                         <p class="fw-bold">Offerta</p>
-                        <p>Biglietto standard</p>
+                        <p id="tipo_biglietto"></p>
                     </div> 
                     <div class="col-1">
                         <p class="fw-bold">Carrozza</p>
-                        <p>5</p>
+                        <p id="carrozza"></p>
                     </div>
                     <div class="col-2">
                         <p class="fw-bold">Codice Cp</p>
-                        <p>92911</p>
+                        <p id="codice_cp">92911</p>
                     </div>
                     <div class="col-2">
                         <p class="fw-bold">Costo biglietto</p>
                         <p id="output_prezzo"></p>
+                        
                     </div>
                 </div>
             </div>
-            
-            
-            <p id="output_prezzo"></p>
         </div>
     </main>
 </body>
 </html>
+            
+            
+            
